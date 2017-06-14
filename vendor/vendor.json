@@ -1,0 +1,19 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "ZZd6TCV9PVv2CCua0GYTG2jLUiI=",
+			"path": "code.cloudfoundry.org/cli/plugin",
+			"revision": "50860554bca56ee666c92bdabc4a027a25c3476f",
+			"revisionTime": "2017-06-13T23:52:38Z"
+		},
+		{
+			"checksumSHA1": "ZqrzOExwuoQXiVsSg6mMQQEXOd0=",
+			"path": "code.cloudfoundry.org/cli/plugin/models",
+			"revision": "50860554bca56ee666c92bdabc4a027a25c3476f",
+			"revisionTime": "2017-06-13T23:52:38Z"
+		}
+	],
+	"rootPath": "github.com/georgeharley/simple-cli-plugin"
+}
