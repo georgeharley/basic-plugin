@@ -1,9 +1,12 @@
 Build and install the plugin as follows:
 
+```
 $> govendor install -ldflags="-X main.pluginVersion=0.0.1" +local
 $> cf install-plugin -f $GOPATH/bin/basic-plugin
+```
 
-Run the plugin without any options and it will print to stdout the unformatted response from a call to `curl /v2/info`.
+<br/><br/>
+Set your API endpoint and then run the plugin without any options. It should print to stdout the unformatted response from a call to `curl /v2/info`.
 e.g.
 
 ```
@@ -15,7 +18,8 @@ Running the basic-plugin-command
 ```
 
 
-Run the plugin again with the -v global option and its output (the unformatted response from a call to `curl /v2/info`) is now empty...
+<br/><br/>
+Run the plugin again with the -v global option included. Now the output (the unformatted response from a call to `curl /v2/info`) will be empty.
 
 ```
 $> cf basic-plugin-command -v
